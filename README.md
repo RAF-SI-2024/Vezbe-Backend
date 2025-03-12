@@ -28,3 +28,5 @@ curl -X POST -d '{"username":"student","password":"student","isAdmin":false,"ime
 curl -X POST -d '{"username":"student","password":"student123","isAdmin":true,"imePrezime":"Student Studentic"}' -H "Content-Type: application/json" -H "Authorization: Bearer $TOKEN" http://localhost:8080/api
 ```
 
+
+
